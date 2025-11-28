@@ -1,8 +1,8 @@
 export const profile = {
 	fullName: 'Vaibhav Sinha',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	title: 'PhD Student',
+	institute: 'University of Cincinnati',
+	author_name: 'Vaibhav Sinha', // Author name to be highlighted in the papers section
 	research_areas: [
 		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
 	],
@@ -15,7 +15,7 @@ export const social = {
 	x: '',
 	github: '',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?user=bKsZGsQAAAAJ&hl=en',
 	inspire: '',
 	arxiv: '',
 }
