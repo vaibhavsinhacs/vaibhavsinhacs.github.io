@@ -8,12 +8,15 @@ const {fullName, title, institute, profilePicture} = Astro.props
 ---
 <div class='flex-1'>
   <h1 class='text-4xl font-bold mb-4'>
-    Welcome! I'm <span class='text-secondary'>{fullName}</span>
+    Hello! I'm <span class='text-secondary'>{fullName}</span>
   </h1>
   <p class='text-xl text-gray-600 mb-4'>{title}{institute ? ` at ${institute}` : ''}</p>
   <p class='text-lg mb-6'>
-    Brief impactful description of your research focus and academic mission.
-    Highlight your key contributions and areas of expertise.
+    I am particularly interested in developing models that can navigate complex, multimodal data,
+    interpret nuanced contextual information, and perform robustly in challenging settings like small
+    or skewed datasets. My research interests also align with topics such as model interpretability,
+    fairness, and scalability, with a focus on building trustworthy AI systems for critical applications
+    like healthcare and other areas.
   </p>
   <div class='flex gap-4'>
     <SocialIcons />

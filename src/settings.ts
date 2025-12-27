@@ -1,29 +1,43 @@
 export const profile = {
-	fullName: 'Your Name',
-	title: '',
-	institute: '',
-	author_name: '', // Author name to be highlighted in the papers section
+	fullName: 'Vaibhav Sinha',
+	title: 'PhD Student in Computer Science',
+	institute: 'University of Cincinnati',
+	author_name: 'Vaibhav Sinha', // Author name to be highlighted in the papers section
 	research_areas: [
-		// { title: 'Physics', description: 'Brief description of the research interest', field: 'physics' },
-	],
+        {
+            title: 'Robust Machine Learning',
+            description: 'Developing models that perform reliably by learning effectively from small, skewed, or noisy datasets.',
+            field: 'robustness'
+        },
+        {
+            title: 'Multimodal Representation',
+            description: 'Designing models that can navigate complex, heterogeneous information streams to capture nuanced context.',
+            field: 'multimodal'
+        },
+        {
+            title: 'Trustworthy AI',
+            description: 'Ensuring machine learning systems are interpretable, fair, and transparent for deployment in critical environments.',
+            field: 'trustworthy'
+        },
+    ],
 }
 
 // Set equal to an empty string to hide the icon that you don't want to display
 export const social = {
-	email: '',
-	linkedin: '',
-	x: 'https://www.x.com/',
+	email: 'sinhavv@mail.uc.edu',
+	linkedin: 'https://www.linkedin.com/in/sinha-vaibhav/',
+	x: '',
 	bluesky: '',
-	github: '',
+	github: 'https://github.com/vaibhavsinhacs',
 	gitlab: '',
-	scholar: '',
+	scholar: 'https://scholar.google.com/citations?user=bKsZGsQAAAAJ&hl=en',
 	inspire: '',
 	arxiv: '',
 	orcid: '',
 }
 
 export const template = {
-	website_url: 'https://localhost:4321', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
+	website_url: 'https://vaibhavsinhacs.github.io', // Astro needs to know your site’s deployed URL to generate a sitemap. It must start with http:// or https://
 	menu_left: false,
 	transitions: true,
 	lightTheme: 'light', // Select one of the Daisy UI Themes or create your own
@@ -34,7 +48,7 @@ export const template = {
 }
 
 export const seo = {
-	default_title: 'Astro Academia',
-	default_description: 'Astro Academia is a template for academic websites.',
+	default_title: 'Vaibhav Sinha | CS PhD Student',
+	default_description: 'Personal website and research portfolio of Vaibhav Sinha, PhD student in Computer Science.',
 	default_image: '/images/astro-academia.png',
 }

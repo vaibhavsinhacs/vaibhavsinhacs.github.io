@@ -1,55 +1,95 @@
 export const experiences = [
 	{
-		company: '',
-		time: '',
-		title: '',
-		location: '',
+		company: 'University of Cincinnati',
+		time: 'Aug 2025 - Present',
+		title: 'Graduate Teaching Assistant',
+		location: 'Cincinnati, OH, USA',
 		description: '',
 	},
-	// {
-	// 	company: 'Radium Institute (Institut du Radium)',
-	// 	time: '1914 - 1934',
-	// 	title: 'Director',
-	// 	location: 'Paris, France',
-	// 	description: 'Led groundbreaking studies on radioactivity and mentored future Nobel Prize laureates.',
-	// },
+	{
+		company: 'The University of Texas at Dallas',
+		time: 'Sep 2024 - May 2025',
+		title: 'Computer Science Grader',
+		location: 'Dallas, TX, USA',
+		description: '',
+	},
+	{
+		company: 'KPMG India',
+		time: 'Jul 2022 - Nov 2022',
+		title: 'Analyst',
+		location: 'Mumbai, India',
+		description: '',
+	},
+	{
+		company: 'KPMG India',
+		time: 'Jan 2022 - Jul 2022',
+		title: 'Intern',
+		location: 'Mumbai, India',
+		description: '',
+	},
+	{
+		company: 'HighRadius',
+		time: 'Jan 2021 - Mar 2021',
+		title: 'Intern',
+		location: 'Bhubaneswar, India',
+		description: '',
+	},
 ];
 
 export const education = [
 	{
-		school: '',
-		time: '',
-		degree: '',
-		location: '',
+		school: 'University of Cincinnati',
+		time: 'Aug 2025 - Present',
+		degree: 'PhD in Computer Science',
+		location: 'Cincinnati, OH, USA',
 		description: '',
 	},
-	// {
-	// 	school: 'University of Paris',
-	// 	time: '1891 - 1895',
-	// 	degree: 'Master’s in Physics and Mathematics',
-	// 	location: 'Paris, France',
-	// 	description: 'Graduated at the top of her class in physics and second in mathematics.',
-	// },
+	{
+		school: 'The University of Texas at Dallas',
+		time: 'Aug 2023 - May 2025',
+		degree: 'MS in Computer Science',
+		location: 'Dallas, TX, USA',
+		description: '',
+	},
+	{
+		school: 'Kalinga Institute of Industrial Technology',
+		time: 'Jul 2018 - May 2022',
+		degree: 'B.Tech in Computer Science and Systems Engineering',
+		location: 'Bhubaneswar, India',
+		description: '',
+	},
 ];
 
 export const skills = [
 	{
-		title: '',
-		description: '',
+		title: 'Technical Languages',
+		description: 'Python, R, Julia, C++, C, SQL',
 	},
-	// {
-	// 	title: 'Experimental Techniques',
-	// 	description: 'Spectroscopy, Isolation of Radioactive Elements, Radiation Measurement',
-	// },
+	{
+		title: 'ML Toolkit',
+		description: 'Scikit-learn, PyTorch, TensorFlow, NLTK, Jupyter',
+	},
+	{
+		title: 'Web',
+		description: 'HTML, CSS, Bootstrap, JavaScript, React, MongoDB',
+	},
+	{
+		title: 'Others',
+		description: 'Git, LaTeX, MS Office Suite',
+	},
+	{
+		title: 'Soft Skills',
+		description: 'Goal-oriented, Persistent, Fair conscientious',
+	},
 ];
 
 export const publications = [
 	{
-		title: '',
-		authors: '',
-		journal: '',
-		time: '',
-		link: '',
+		title: 'A Study of Feature Selection and Extraction Algorithms for Cancer Subtype Prediction',
+		authors: 'Vaibhav Sinha, Siladitya Dash, Nazma Naskar, Sk Md Mosaddek Hossain',
+		journal: '2022 IEEE International Conference for Advancement in Technology (ICONAT)',
+		time: 'Jan 2022',
+		link: 'https://ieeexplore.ieee.org/abstract/document/9726007',
 		abstract: '',
 	},
 	// {
